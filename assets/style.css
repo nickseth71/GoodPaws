@@ -313,7 +313,7 @@ cursor: pointer;
 }
 .section--header_main.center {
     position: relative;
-    left: 50%;
+    /* left: 50%; */
 }
 .contact--right {
   display: flex;
@@ -363,7 +363,7 @@ cursor: pointer;
 }
 
 .good__stuff--con img {
-  max-width: 30px;
+  /* max-width: 30px; */
   width: 100%;
 }
 
