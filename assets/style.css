@@ -103,9 +103,13 @@
 .image--wrap_text {
   padding: 3rem 3rem 3rem 5rem;
 }
-.image-with-text_wrap {    padding: 3rem 0;
-  background: #f387bb;
+.image-with-text_wrap {    
+  padding: 3rem 0;
+  background-color: #7acbde;
   color: #fff;
+}
+.image-with-text_wrap.section__second {
+background-color: #c19bdd;
 }
 .image--wrap {
   margin-top: 30px;
@@ -372,8 +376,8 @@ cursor: pointer;
   justify-content: center;
 }
 
-.good__stuff--wrap.fixed-container {
-  background-color: #516C67;
+.good__stuff--wrap{
+  background-color: #fc90c4;
 }
 
 .good__stuff--con span {
@@ -398,9 +402,7 @@ cursor: pointer;
 .good__stuff--rmain h2 {
   font-size: 28px;
 }
-.good__stuff--wrap {
-  background-color: #6F847D;
-}
+
 .good__stuff--right {
   text-align: center;
   padding-top: 40px;
@@ -446,7 +448,29 @@ cursor: pointer;
 .loader_image.hidden {
   display: none;
 }
+.image-with-text_wrap.section__second .image-with-text_main {
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
+.image-with-text_wrap.section__second h2 {
+  text-align: center;
+}
+.image-with-text_wrap.section__second {
+  position: relative;
+}
+.image-with-text_wrap.section__second:before {
+  position: absolute;
+  content: '';
+  background-image: url(wave.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 50%;
+  top: 40%;
+}
 @media (min-width:768px) and (max-width:1024px){
   .about_section--wrap{    margin-bottom: -5rem;}
   .text--wrap {
@@ -510,7 +534,7 @@ cursor: pointer;
   font-size: 16px;}
   .fixed-container, .contact--section__wrap {
     padding: 3rem 2rem;}
-    .about_section--wrap{    padding: 1rem 0 1rem;margin-bottom: -4rem;}
+    .about_section--wrap{    padding: 1rem 0 1rem;}
     .discover__logos{    padding: 2rem 0 1rem;}
     .discover--section__main{    font-size: 21px;}
     footer{padding-top: 1rem;}
@@ -549,5 +573,8 @@ cursor: pointer;
 .video--banner video {
   height: 400px;
   object-fit: cover;
+}
+.good__stuff--con {
+  width: 100px;
 }
 }
