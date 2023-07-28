@@ -85,7 +85,7 @@
   video,
   img{max-width: 100%;}
   .header_logo {
-    max-width: 120px;
+    max-width: 150px;
 }
 .fixed-container, .contact--section__wrap {
   padding: 3rem 3rem;
@@ -133,7 +133,7 @@ background-color: #c19bdd;
 footer {
   background: #f2d73c;    padding-top: 6rem;
 }
-.contact--section__main .title{font-size: 20px;
+.contact--section__main .title{font-size: 25px;
   padding: 0 0 10px;
   text-transform: uppercase;
   font-weight: bold;}
@@ -149,7 +149,7 @@ footer {
 .section--footer_main {
   max-width: 180px;
   display: inline-block;
-  padding-right: 4rem;
+  padding-right: 0;
 }
 .section--footer_right {
   width: 50%;
@@ -162,7 +162,7 @@ footer {
   justify-content: space-between;
 }
 .contact--left {
-  font-size: 14px;
+  font-size: 16px;
 } 
 .contact--right {
   font-size: 14px;
@@ -253,10 +253,17 @@ cursor: pointer;
   letter-spacing: -1px;    font-size: 22px;
 }
 .discover__logo img {
-  max-width: 30px;
+  max-width: 50px;
   vertical-align: middle;
-  color: #fff;width: 30px;filter: invert(1);
-  max-height: 30px;    margin-right: 0; margin: 0 auto;
+  color: #fff;
+  width: 100%;
+  filter: invert(1);
+  height: 50px;
+  margin-right: 0;
+  margin: 0 auto;
+}
+.bottom__image {
+  text-align: center;
 }
 .discover__logo .icon-logo-d{background: #7f589b; padding: 10px;    border-radius: 5px;}
 .discover__logo a {
@@ -311,7 +318,7 @@ cursor: pointer;
 }
 
 .mobile_wrap svg {
-  max-width: 20px;
+  max-width: 25px;
   width: 100%;
   height: auto;
 }
@@ -329,6 +336,7 @@ cursor: pointer;
 .contact--right a {
   text-decoration: none;
   color: #000;
+  font-size: 16px;
 }
 
 .text--image_wrap {
@@ -471,6 +479,11 @@ cursor: pointer;
   height: 50%;
   top: 40%;
 }
+
+.bottom__image {
+  max-width: 300px;
+  margin: 0 auto;
+}
 @media (min-width:768px) and (max-width:1024px){
   .about_section--wrap{    margin-bottom: -5rem;}
   .text--wrap {
@@ -576,5 +589,12 @@ cursor: pointer;
 }
 .good__stuff--con {
   width: 100px;
+}
+.bottom__image,
+.good__stuff--image img {
+  max-width: 200px;
+}
+.read-more-button {
+  margin: 40px auto 40px;
 }
 }
