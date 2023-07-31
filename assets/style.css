@@ -549,7 +549,13 @@ cursor: pointer;
     padding: 3rem 2rem;}
     .about_section--wrap{    padding: 1rem 0 1rem;}
     .discover__logos{    padding: 2rem 0 1rem;}
-    .discover--section__main{    font-size: 21px;}
+   .discover--section__main {
+    font-size: 16px;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+ }
     footer{padding-top: 1rem;}
     .section--footer_main {
       max-width: 110px;
@@ -596,5 +602,29 @@ cursor: pointer;
 }
 .read-more-button {
   margin: 40px auto 40px;
+}
+.contact--section__main .title {
+    font-size: 18px;
+}
+.contact--left,
+.contact--right a,
+  .contact--right {
+    font-size: 12px;
+}
+.mobile_wrap svg {
+    max-width: 15px;
+}
+.discover--section__main h2 {
+  font-size: 40px;
+}
+.discover__logo img {
+    max-width: 30px;
+    height: 30px;
+}
+.discover__logo .icon-logo-d {
+      padding: 8px;
+}
+.discover__logo {
+    padding: 0 10px;
 }
 }
