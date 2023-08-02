@@ -221,7 +221,8 @@ footer {
   padding: 9px 35px;
   background: #000;    font-size: 15px;
 cursor: pointer;
-  border-radius: 5px;font-family: Campton Light DEMO;
+  border-radius: 5px;
+  font-family: Campton Light DEMO;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -230,7 +231,7 @@ cursor: pointer;
   max-width: 1000px;
   font-size: 20px;
   margin: 0 auto;
-  font-family: Pitch-Bold;
+  font-family: Campton Light DEMO;
   font-weight: 600;
 }
 .text--wrap h2,
@@ -245,12 +246,15 @@ cursor: pointer;
 }
 .text--wrap{
   padding: 3rem 3rem 3rem 5rem;
-  max-width: 55%;    width: 100%;
+  max-width: 55%;  
+  width: 100%;
 }
 .text--main span,
 .image--top_text span {
-  padding: 5px 0;font-family: 'Pitch-Bold';
-  letter-spacing: -1px;    font-size: 22px;
+  padding: 5px 0;
+  font-family: 'Campton Light DEMO';
+  letter-spacing: -1px;    
+  font-size: 25px;
 }
 .discover__logo img {
   max-width: 50px;
@@ -265,7 +269,11 @@ cursor: pointer;
 .bottom__image {
   text-align: center;
 }
-.discover__logo .icon-logo-d{background: #7f589b; padding: 10px;    border-radius: 5px;}
+.discover__logo .icon-logo-d {
+  background: #7f589b; 
+  padding: 10px;  
+    border-radius: 5px;
+  }
 .discover__logo a {
   color: #fff;
   text-decoration: none;
@@ -484,6 +492,28 @@ cursor: pointer;
   max-width: 300px;
   margin: 0 auto;
 }
+
+.join_wrapper .image--wrap img {
+  width: 100%;
+  display: block;
+}
+.join_wrapper .image--wrap {
+  width: 400px;
+}
+
+.join_wrapper .image--wrap img {
+  width: 100%;
+  display: block;
+}
+
+.image-with-text_wrap.join_wrapper {
+  position: relative;
+}
+.join_wrapper .bottom__image {
+  position: absolute;
+  right: 25%;
+  bottom: 0;
+}
 @media (min-width:768px) and (max-width:1024px){
   .about_section--wrap{    margin-bottom: -5rem;}
   .text--wrap {
@@ -500,6 +530,9 @@ cursor: pointer;
   padding-top: 50px;
 }
 @media (max-width:767px){
+  .join_wrapper .bottom__image {
+    position: unset;
+  }
   .good__stuff--left-con {
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -546,7 +579,7 @@ cursor: pointer;
 .text--main {
   font-size: 16px;}
   .fixed-container, .contact--section__wrap {
-    padding: 3rem 2rem;}
+    padding: 3rem 1rem;}
     .about_section--wrap{    padding: 1rem 0 1rem;}
     .discover__logos{    padding: 2rem 0 1rem;}
    .discover--section__main {
@@ -626,5 +659,8 @@ cursor: pointer;
 }
 .discover__logo {
     padding: 0 10px;
+}
+.join_wrapper .image--wrap {
+  width: 100%;
 }
 }
