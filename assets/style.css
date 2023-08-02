@@ -663,4 +663,7 @@ cursor: pointer;
 .join_wrapper .image--wrap {
   width: 100%;
 }
+.text--main span, .image--top_text span {
+  font-size: 20px;
+}
 }
