@@ -529,6 +529,9 @@ cursor: pointer;
 .good__stuff--main {
   padding-top: 50px;
 }
+.join_wrapper .bottom__image img {
+  display: block;
+}
 @media (max-width:767px){
   .join_wrapper .bottom__image {
     position: unset;
