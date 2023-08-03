@@ -353,7 +353,7 @@ cursor: pointer;
   gap: 10px;
 }
 .text--image_wrap img {
-  max-width: 25px;
+  max-width: 30px;
   width: 100%;
 }
 .text--image_wrap img {
@@ -535,7 +535,7 @@ cursor: pointer;
   }
   .good__stuff--left-con {
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 5px;
   }
   .about__us a{    font-size: 13px;}
