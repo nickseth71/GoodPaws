@@ -102,10 +102,10 @@
   align-items: flex-start;
 }
 .image--wrap_text {
-  padding: 3rem 3rem 3rem 5rem;
+  padding: 0rem 3rem 0rem 5rem;
 }
 .image-with-text_wrap {    
-  padding: 3rem 0;
+  /* padding: 3rem 0; */
   background-color: #7acbde;
   color: #fff;
 }
@@ -191,6 +191,7 @@ footer {
   color: #fff;
   text-align: center;
   font-size: 65px;
+  padding-top: 40px;
 }
 .container {
   overflow-x: hidden;
@@ -202,15 +203,15 @@ footer {
 .discover__logos {
   display: flex;
   justify-content: center;
-  padding: 3rem 0 2rem;
+  padding: 3rem 0 0rem;
 }
 .discover__logo {
   padding: 0 30px;
 }
 .about_section--wrap {
     background: #fbc4d1;
-    padding: 1rem 0 4rem;
-    margin-bottom: -3rem;
+    /* padding: 1rem 0 4rem;
+    margin-bottom: -3rem; */
     text-align: center;
 }
 .about_section--wrap .title {
@@ -248,7 +249,7 @@ cursor: pointer;
   flex-direction: column;
 }
 .text--wrap{
-  padding: 3rem 3rem 3rem 5rem;
+  padding: 0rem 3rem 0rem 5rem;
   max-width: 55%;  
   width: 100%;
 }
@@ -304,7 +305,7 @@ cursor: pointer;
 .icon-logo-d{    background: #f3d73f; padding: 30px;}
 
 .image--wrap_text {
-  padding: 3rem 3rem 3rem 5rem;
+  padding: 0rem 3rem 0rem 5rem;
 }
 
 .image--wrap_text {
@@ -514,11 +515,13 @@ cursor: pointer;
 }
 .join_wrapper .bottom__image {
   position: absolute;
-  right: 25%;
+  right: 28%;
   bottom: 0;
 }
 @media (min-width:768px) and (max-width:1024px){
-  .about_section--wrap{    margin-bottom: -5rem;}
+  .about_section--wrap{  
+   margin-bottom: -5rem;
+  }
   .text--wrap {
     padding: 3rem 3rem}
 }
@@ -529,11 +532,20 @@ cursor: pointer;
   z-index: 9;
   padding: 10px;
 }
-.good__stuff--main {
+/* .good__stuff--main {
   padding-top: 50px;
-}
+} */
 .join_wrapper .bottom__image img {
   display: block;
+}
+
+.section__second .image--wrap img {
+  width: 100%;
+  object-fit: cover;
+  height: auto;
+}
+.section__second .image--wrap_text {
+  width: 100%;
 }
 @media (max-width:767px){
   .join_wrapper .bottom__image {
@@ -586,7 +598,7 @@ cursor: pointer;
   font-size: 16px;}
   .fixed-container, .contact--section__wrap {
     padding: 3rem 1rem;}
-    .about_section--wrap{    padding: 1rem 0 1rem;}
+    /* .about_section--wrap{    padding: 1rem 0 1rem;} */
     .discover__logos{    padding: 2rem 0 1rem;}
    .discover--section__main {
     font-size: 16px;
